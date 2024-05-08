@@ -24,9 +24,11 @@ const NumberState = () => {
   return (
     <div>
       <h2>Number: {number}</h2>
-      {/* Buttons for interactions */}
+      //Button for Increment
       <button onClick={handleIncrement}>Increment</button>
+      //Button for Decrement
       <button onClick={handleDecrement}>Decrement</button>
+      //Button for Reset
       <button onClick={handleReset}>Reset</button>
     </div>
   );
